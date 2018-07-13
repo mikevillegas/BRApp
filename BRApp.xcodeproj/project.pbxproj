@@ -20,7 +20,6 @@
 		F4D59F3320F6E91D00013696 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F3220F6E91D00013696 /* LoginViewController.m */; };
 		F4D59F3D20F6E93A00013696 /* MenuIzquierdoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F3A20F6E93800013696 /* MenuIzquierdoViewController.m */; };
 		F4D59F3E20F6E93A00013696 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F3C20F6E93800013696 /* MenuTableViewCell.m */; };
-		F4D59F4420F6E93C00013696 /* SucMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F4120F6E93C00013696 /* SucMapViewController.m */; };
 		F4D59F4520F6E93C00013696 /* SucResultadosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F4320F6E93C00013696 /* SucResultadosViewController.m */; };
 		F4D59F4920F6E94F00013696 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F4820F6E94E00013696 /* TutorialViewController.m */; };
 		F4D59F5020F6E96400013696 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D59F4D20F6E96400013696 /* JASidePanelController.m */; };
@@ -67,8 +66,6 @@
 		F4D59F3A20F6E93800013696 /* MenuIzquierdoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuIzquierdoViewController.m; sourceTree = "<group>"; };
 		F4D59F3B20F6E93800013696 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
 		F4D59F3C20F6E93800013696 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
-		F4D59F4020F6E93C00013696 /* SucMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SucMapViewController.h; sourceTree = "<group>"; };
-		F4D59F4120F6E93C00013696 /* SucMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SucMapViewController.m; sourceTree = "<group>"; };
 		F4D59F4220F6E93C00013696 /* SucResultadosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SucResultadosViewController.h; sourceTree = "<group>"; };
 		F4D59F4320F6E93C00013696 /* SucResultadosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SucResultadosViewController.m; sourceTree = "<group>"; };
 		F4D59F4720F6E94E00013696 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
@@ -180,8 +177,6 @@
 		F4D59F3F20F6E93C00013696 /* Sucursales */ = {
 			isa = PBXGroup;
 			children = (
-				F4D59F4020F6E93C00013696 /* SucMapViewController.h */,
-				F4D59F4120F6E93C00013696 /* SucMapViewController.m */,
 				F4D59F4220F6E93C00013696 /* SucResultadosViewController.h */,
 				F4D59F4320F6E93C00013696 /* SucResultadosViewController.m */,
 			);
@@ -312,7 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D59F3D20F6E93A00013696 /* MenuIzquierdoViewController.m in Sources */,
-				F4D59F4420F6E93C00013696 /* SucMapViewController.m in Sources */,
 				F4D59F4520F6E93C00013696 /* SucResultadosViewController.m in Sources */,
 				F4532CA220F861F500A75BDA /* TutorialLauncherViewController.m in Sources */,
 				F4D59F3320F6E91D00013696 /* LoginViewController.m in Sources */,

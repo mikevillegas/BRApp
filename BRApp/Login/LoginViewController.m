@@ -130,6 +130,10 @@
     }
 
 }
+- (IBAction)btnBuscarSucursales:(id)sender {
+//[self performSegueWithIdentifier: @"showSucursales" sender: self];
+
+}
 
 #pragma mark - LocationManager
 

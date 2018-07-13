@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
-@interface SucResultadosViewController : ViewController
+@interface SucResultadosViewController : ViewController <UITableViewDelegate, UITableViewDataSource,UISearchBarDelegate>
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplay;
+@property (weak, nonatomic) IBOutlet UITableView *tableSucurales;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @end

@@ -17,5 +17,6 @@
 @property (weak, nonatomic) IBOutlet MKMapView *SucursalesMapView;
 @property (weak, nonatomic) IBOutlet UIButton *btnIngresar;
 @property (weak, nonatomic) IBOutlet UIView *viewIngresar;
+@property (weak, nonatomic) IBOutlet UIButton *btnBuscarSucursales;
 
 @end
