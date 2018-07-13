@@ -1,0 +1,6 @@
+framework module BRCustom {
+  umbrella header "BRCustom.h"
+
+  export *
+  module * { export * }
+}
