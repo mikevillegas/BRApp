@@ -1,9 +1,9 @@
 //
 //  BRSucursal.h
-//  BRGeneral
+//  BRCustom
 //
-//  Created by Mike Villegas on 07/07/18.
-//  Copyright © 2018 Mike Villegas. All rights reserved.
+//  Created by Miguel Villegas on 07/07/18.
+//  Copyright © 2018 Miguel Villegas. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

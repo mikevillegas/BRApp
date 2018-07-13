@@ -1,9 +1,9 @@
 //
 //  BRUsuariosKit.h
-//  sqliteTest
+//  BRCustom
 //
-//  Created by M.V. on 12/07/18.
-//
+//  Created by Miguel Villegas on 12/07/18.
+//  Copyright © 2018 Miguel Villegas. All rights reserved.
 
 #import <Foundation/Foundation.h>
 #import "BRUsuario.h"
