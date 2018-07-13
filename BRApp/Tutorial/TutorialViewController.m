@@ -32,6 +32,5 @@
 - (IBAction)btnSkip:(id)sender {
     [[NSNotificationCenter defaultCenter]postNotificationName:@"kcloseTutorial" object:nil];
 }
-- (IBAction)btnIngresar:(id)sender {
-}
+
 @end

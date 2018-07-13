@@ -32,9 +32,8 @@
     NSArray *viewControllers = [NSArray arrayWithObject:initialViewController];
     
     [self.pageController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
-    
-    [self addChildViewController:self.pageController];
     [self.view addSubview:self.pageController.view];
+    [self presentViewController:self.pageController animated:YES completion:nil];
     [self.pageController didMoveToParentViewController:self];
 }
 
@@ -135,13 +134,12 @@
 
 - (NSInteger)presentationCountForPageViewController:(UIPageViewController *)pageViewController {
     // The number of items reflected in the page indicator.
-    return 3;
+    return 5;
 }
 
 - (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController {
     // The selected item reflected in the page indicator.
     return 0;
 }
-
 
 @end

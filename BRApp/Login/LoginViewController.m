@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-#import "TutorialLauncherViewController.h"
+#import "SidePanelController.h"
 #import <BRCustom/BRCustom.h>
 
 @interface LoginViewController ()
@@ -113,11 +113,10 @@
 #pragma mark - UIButtons
 
 - (IBAction)btnIngresar:(id)sender {
+   
     [self.view removeFromSuperview];
-    TutorialLauncherViewController *tutorial =[[TutorialLauncherViewController alloc]init];
-    UIWindow* mainWindow = [[UIApplication sharedApplication] keyWindow];
-    [mainWindow addSubview: tutorial.view];
-    
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"kIngresarOK" object:nil];
+
 }
 
 - (IBAction)btnFullMap:(id)sender {
